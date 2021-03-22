@@ -48,7 +48,7 @@ void tampilkan(byte baris) {
  for (byte kolom = 0; kolom < 7; ++ kolom) {
  digitalWrite(pin, 
 pin_7segmen[baris][kolom]);
- ++pin;
+ ++pin;s
 
  }
 }
